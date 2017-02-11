@@ -1,0 +1,30 @@
+{
+  "name": "netcom",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "description": "Netcom JA official website",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisanaMargot/netcom.git"
+  },
+  "author": "luisana sandoval",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuisanaMargot/netcom/issues"
+  },
+  "homepage": "https://github.com/LuisanaMargot/netcom#readme"
+}
