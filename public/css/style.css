@@ -1,0 +1,128 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.navbar-default{
+-webkit-box-shadow:none !important;
+box-shadow: none !important;
+}
+.navbar-fixed-bottom, .navbar-fixed-top, .navbar-static-top {
+    background: transparent !important;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+  transition: all 1.5s ease-out;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse{
+    background: rgba(255, 255, 255, 0.93) !important;
+    transition: all 1.5s ease-out;
+
+}
+
+nav.top-nav-collapse > li > a {
+  color:#333 !important;
+}
+
+.navbar{
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #F1973C;
+    background-color: transparent;
+ }
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: transparent !important;
+  color:white;
+  border-bottom: 1px solid #F1973C;
+  padding-bottom: 9px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+  background: none !important;
+  box-shadow: none !important;
+  webkit-box-shadow:none !important;
+}
+.top-nav-collapse .navbar-nav>li>a {
+color: #333;
+}
+
+.top-nav-collapse .navbar-nav>li.active>a ,
+.top-nav-collapse .navbar-nav>li.active>a:hover{
+  color: #F1973C;
+  background: transparent;
+  text-shadow: none;
+  border-bottom: none !important;
+
+
+}
+.carousel {
+    overflow: hidden;
+    height: 600px;
+
+}
+
+.carousel-control{
+background: none !important;
+}
+
+.carousel-control:focus, .carousel-control:hover {
+    color: #333 !important;
+    background: none !important;
+}
+
+section#nosotros {
+    padding: 64px;
+}
+
+.informacion-1{
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+
+a.btn.btn-primary.btn-lg{
+background-image: none;
+border-color: #F1973C;
+box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+color: #ff5f0b;
+background-color: #ffffff;
+
+}
+
+section#servicio {
+    padding: 3%;
+}
+
+
+#servicio > h1 {
+  text-align: center;
+}
+
+#contacto .jumbotron{
+  background-color: #4495B8;
+      margin-bottom: 0px;
+}
+section#footer{
+background: rgba(119, 119, 119, 0.77);
+}
+
+#contacto .jumbotron {
+    height: 350px;
+    background-color: rgba(0,0,0,.075);
+    margin-bottom: 0px;
+}
+
+#contacto .jumbotron > h1{
+  padding-bottom: 102px;
+}
