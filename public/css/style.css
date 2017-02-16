@@ -126,3 +126,25 @@ background: rgba(119, 119, 119, 0.77);
 #contacto .jumbotron > h1{
   padding-bottom: 102px;
 }
+
+#top .container{
+  background: url(../images/slide-1.jpg) no-repeat;
+  height: 500px;
+  width: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center bottom;
+
+}
+
+#top .container > h1 {
+  color: white;
+    font-size: 8rem;
+    text-align: center;
+    padding-top: 168px;
+}
+
+#nosotros-2 {
+  background: whitesmoke;
+  height: 350px;
+}
