@@ -148,3 +148,24 @@ background: rgba(119, 119, 119, 0.77);
   background: whitesmoke;
   height: 350px;
 }
+
+
+section#preguntas {
+    padding-top: 67px;
+    padding-bottom: 70px;
+}
+
+#q-2 , #q-3 , #q-4 , #q-5 , #q-1 {
+  text-align: justify;
+}
+
+#q-2 > h4 , #q-3 > h4 , #q-4 > h4 , #q-5 > h4 , #q-1 > h4{
+  color: #4495B8;
+  font-weight: 600;
+}
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(68, 149, 184);
+}
