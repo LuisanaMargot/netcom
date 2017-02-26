@@ -3,83 +3,247 @@
 <head>
   <% include  ../partials/head %>
 </head>
-<body>
+<body id="servicio-page">
   <header>
     <% include ../partials/header %>
   </header>
 
-<section id="top">
+  <div  class="top">
     <div class="container">
       <h1> Netcom</h1>
     </div>
-  </section>
-<section id="servicio">
+  </div>
+  <section id="contenido-servicio">
     <div  class="container">
       <div class="row">
-        <div class="col-xs-6">
+        <div class="col-xs-8">
           <h2>Conozca nuestra gama de Servicios</h2>
           <div class="informacion-1 ">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Somos una empresa caracterizada por nuestra creatividad, innovación, y profesionalismo.
           </div>
 
           <div class="row">
             <div class="col-xs-6">
-              <h4> <a href="#"><i class="glyphicon glyphicon-envelope"></i> lorem</h4></a>
+              <h4> <a class="boton page-scroll" href="#contenido" data-target="item1"><i class="glyphicon glyphicon-envelope"></i> Consultoría y Auditoría de sistemas</h4></a>
             </div>
 
             <div class="col-xs-6">
-            <h4> <a href="#"><i class="glyphicon glyphicon-envelope"></i> lorem</h4></a>
-            </div>
-
-          </div>
-          <div class="row">
-            <div class="col-xs-6">
-            <h4> <a href="#"><i class="glyphicon glyphicon-envelope"></i> lorem</h4></a>
-            </div>
-
-            <div class="col-xs-6">
-              <h4> <a href="#"><i class="glyphicon glyphicon-envelope"></i> lorem</h4></a>
+              <h4> <a class="boton page-scroll" href="#contenido" data-target="item2"><i class="glyphicon glyphicon-envelope"></i> Creación de Sistemas, Programas y Aplicaciones Móviles</h4></a>
             </div>
 
           </div>
           <div class="row">
             <div class="col-xs-6">
-            <h4> <a href="#"><i class="glyphicon glyphicon-envelope"></i> lorem</h4></a>
+              <h4> <a class="boton page-scroll" href="#contenido" data-target="item3"><i class="glyphicon glyphicon-envelope"></i> Diseño de Página Web</h4></a>
             </div>
 
             <div class="col-xs-6">
-              <h4> <a href="#"><i class="glyphicon glyphicon-envelope"></i> lorem</h4></a>
+              <h4> <a class="boton page-scroll" href="#contenido" data-target="item4"><i class="glyphicon glyphicon-envelope"></i> Anualidad de Manejo de Contenido</h4></a>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <div class="col-xs-6">
+              <h4> <a class="boton page-scroll" href="#contenido" data-target="item5"><i class="glyphicon glyphicon-envelope"></i> Implantación de Servicio Call Center</h4></a>
+            </div>
+
+            <div class="col-xs-6">
+              <h4> <a class="boton page-scroll" href="#contenido" data-target="item6"><i class="glyphicon glyphicon-envelope"></i> Versión Móvil de Página Web</h4></a>
             </div>
 
           </div>
           <div class="row">
             <div class="col-xs-6">
-              <h4> <a href="#"><i class="glyphicon glyphicon-envelope"></i> lorem</h4></a>
+              <h4> <a class="boton page-scroll" href="#contenido" data-target="item7"><i class="glyphicon glyphicon-envelope"></i> Creación de Correo Electrónico Corporativo</h4></a>
             </div>
 
             <div class="col-xs-6">
-            <h4> <a href="#"><i class="glyphicon glyphicon-envelope"></i> lorem</h4></a>
+              <h4> <a class="boton page-scroll" href="#contenido" data-target="item8"><i class="glyphicon glyphicon-envelope"></i> Asesoría y Manejo de Marketing Digital</h4></a>
             </div>
 
           </div>
           <div class="row">
             <div class="col-xs-6">
-            <h4> <a href="#"><i class="glyphicon glyphicon-envelope"></i> lorem</h4></a>
+              <h4> <a class="boton page-scroll" href="#contenido" data-target="item9"><i class="glyphicon glyphicon-envelope"></i> Web Hosting</h4></a>
             </div>
 
             <div class="col-xs-6">
-              <h4> <a href="#"><i class="glyphicon glyphicon-envelope"></i> lorem</h4></a>
+              <h4> <a class="boton page-scroll" href="#contenido" data-target="item10"><i class="glyphicon glyphicon-envelope"></i> Creación de Base de Datos</h4></a>
             </div>
 
           </div>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h4> <a class="boton page-scroll" href="#contenido" data-target="item11"><i class="glyphicon glyphicon-envelope"></i> Plan de Diseño e Implantación de Redes</h4></a>
+            </div>
+
+          </div>
+
         </div>
-        <div class="col-xs-6">
-          <img src= "/images/logo.png"  alt="Website">
+
+        <div class="col-xs-4">
+          <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+        </div>
+      </div>
+      <div id="contenido">
+        <div class="row">
+          <div id="item1" class="contenedor" style="display:none">
+            <div class="col-md-6" style="height:300px" >
+              <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+            </div>
+            <div class="col-md-6" style="height:300px">
+              <div class="informacion-servicio">
+                  <h3>Consultoría y Auditoría de sistemas</h3>
+                <p>  El servicio está centrado para asistir a nuestros clientes en la evaluación del sistema informático de su empresa, en miras de sugerir soluciones que le permitan aprovechar las ventajas y beneficios del Sistema de Gestión de Seguridad de la Información establecidos según la Norma ISO 27001, garantizando asesorías de calidad cuyo propósito es reforzar la seguridad de sus activos de información, aunado a la posibilidad de gestionarla más eficazmente, optimizando así todos los procesos del negocio.<br><br>
+                  La norma ISO 27001, es una norma internacional, la cual describe cómo gestionar la seguridad de la información en una empresa. Dicha norma está enfocada a cualquier organización, bien sea pública ó privada, y de cualquier tamaño. La norma ISO 27001, permite que la seguridad informática de una empresa sea certificada, a través de una entidad de certificación independiente, la cual confirma que la seguridad de la información ha sido implementada en cumplimiento con la norma. </p>
+              </div>
+              <a class="btn boton-out" style="background:black; color: white"> atras</a>
+            </div>
+          </div>
+          <div id="item2" class="contenedor" style="display:none">
+            <div class="col-md-6" style="height:300px" >
+              <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+
+            </div>
+            <div class="col-md-6" style="height:300px">
+              <div class="informacion-servicio">
+                <h3>Creación de Sistemas, Programas y Aplicaciones Móviles</h3>
+                <p>Creamos y diseñamos sistemas, programas y aplicaciones móviles, de cualquier tipo, de acuerdo a las necesidades del cliente, a fin de mejorar el rendimiento de sus productos y/ó servicios.</p>
+              </div>
+              <a class="btn boton-out" style="background:black"> atras</a>
+            </div>
+          </div>
+
+          <div id="item3" class="contenedor" style="display:none">
+            <div class="col-md-6" style="height:300px" >
+              <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+
+            </div>
+            <div class="col-md-6" style="height:300px">
+              <div class="informacion-servicio">
+                <h3>Diseño de Página Web</h3>
+                <p>Planificamos, diseñamos, programamos e implantamos sitios web, según lo solicitado por el cliente.</p>
+                <h3>Página web de tipo Portal Informativo</h3>
+                <p>Orientada a suministrar información de carácter dinámico para los usuarios, asimismo le ofrecemos seguridad online, protegiendo su página web de hackers y piratas de la red, programamos su sitio web, para que usted mismo sea el administrador de ella si lo desea, no es necesario tener conocimientos informáticos avanzados. también creamos su formulario de contacto, para que conteste las dudas. ¡Y si lo desea podemos crear su correo corporativo!</p>
+                <h3>Página web de Tipo Profesional</h3>
+                <p>Orientada a suministrar información de carácter dinámico para los usuarios, asimismo le ofrecemos seguridad online, protegiendo su página web de hackers y piratas de la red, programamos su sitio web, para que usted mismo sea el administrador de ella si lo desea, no es necesario tener conocimientos informáticos avanzados. también creamos su formulario de contacto, para que conteste las dudas. ¡Y si lo desea podemos crear su correo corporativo!</p>
+              </div>
+              <a class="btn boton-out" style="background:black"> atras</a>
+            </div>
+          </div>
+
+          <div id="item4" class="contenedor" style="display:none">
+            <div class="col-md-6" style="height:300px" >
+              <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+
+            </div>
+            <div class="col-md-6" style="height:300px">
+              <div class="informacion-servicio">
+                <h3>Anualidad de Manejo de Contenidos</h3>
+                <p>Manejamos y administramos la información de su página web. Modificamos, agregamos y suprimimos la información de acuerdo a sus requerimientos.</p>
+              </div>
+              <a class="btn boton-out" style="background:black"> atras</a>
+            </div>
+          </div>
+          <div id="item5" class="contenedor" style="display:none">
+            <div class="col-md-6" style="height:300px" >
+              <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+
+            </div>
+            <div class="col-md-6" style="height:300px">
+              <div class="informacion-servicio">
+                <h3>Implantación de Servicio Call Center</h3>
+                <p>Implantamos e instalamos, tu central telefónica, en donde agentes, asesores, supervisores o ejecutivos, especialmente entrenados, realizan y/o reciben llamadas</p>
+              </div>
+              <a class="btn boton-out" style="background:black"> atras</a>
+            </div>
+          </div>
+          <div id="item6" class="contenedor" style="display:none">
+            <div class="col-md-6" style="height:300px" >
+              <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+
+            </div>
+            <div class="col-md-6" style="height:300px">
+              <div class="informacion-servicio">
+                <h3>Versión Móvil de Página Web</h3>
+                <p>Creamos la versión móvil de su página web, adaptándola a las dimensiones de los dispositivos móviles, sin importar el tipo de web site que tenga. Le garantizamos que su página web podrá ser visualizado en óptimas condiciones</p>
+              </div>
+              <a class="btn boton-out" style="background:black"> atras</a>
+            </div>
+          </div>
+          <div id="item7" class="contenedor" style="display:none">
+            <div class="col-md-6" style="height:300px" >
+              <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+
+            </div>
+            <div class="col-md-6" style="height:300px">
+              <div class="informacion-servicio">
+                <h3>Creación de Correo Electrónico Corporativo</h3>
+                <p>Creamos y programamos su e-mail, ofreciendo la creación de cuentas. El correo electrónico se ha convertido en una fuerte herramienta de comunicación y difusión de información es por ello, que resulta de gran importancia para su estrategia digital.</p>
+              </div>
+              <a class="btn boton-out" style="background:black"> atras</a>
+            </div>
+          </div>
+          <div id="item8" class="contenedor" style="display:none">
+            <div class="col-md-6" style="height:300px" >
+              <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+
+            </div>
+            <div class="col-md-6" style="height:300px">
+              <div class="informacion-servicio">
+                <h3>Asesoría y Manejo de Marketing Digital</h3>
+                <p>Analizamos y estudiamos sus estrategias de mercadeo usadas por la Organización, y ofrecemos una serie de propuestas, a fin de mejorar dichas estrategias, asimismo realizamos el manejo de contenido en Redes Sociales empresariales, con la finalidad de garantizar la actualización de su información. El marketing digital es la aplicación de las estrategias de comercialización llevadas a cabo en los medios digitales, como lo son las redes sociales, las cuales sirven como instrumento que permite a las organizaciones conocer de una manera más cercana a sus clientes potenciales, fomentando así una comunicación continua que comienza antes del contacto comercial.</p>
+              </div>
+              <a class="btn boton-out" style="background:black"> atras</a>
+            </div>
+          </div>
+          <div id="item9" class="contenedor" style="display:none">
+            <div class="col-md-6" style="height:300px" >
+              <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+
+            </div>
+            <div class="col-md-6" style="height:300px">
+              <div class="informacion-servicio">
+                <h3>Web Hosting</h3>
+                <p>Servicio de hospedaje y dominio de tu página web, garantizando la operatividad anual de su web site.</p>
+              </div>
+              <a class="btn boton-out" style="background:black"> atras</a>
+            </div>
+          </div>
+          <div id="item10" class="contenedor" style="display:none">
+            <div class="col-md-6" style="height:300px" >
+              <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+
+            </div>
+            <div class="col-md-6" style="height:300px">
+              <div class="informacion-servicio">
+                <h3>Creación de Base de Datos</h3>
+                <p>Es un conjunto de registros, archivos y recopilación de información organizados y relacionada con un tema o un propósito particular.</p>
+              </div>
+              <a class="btn boton-out" style="background:black"> atras</a>
+            </div>
+          </div>
+          <div id="item11" class="contenedor" style="display:none">
+            <div class="col-md-6" style="height:300px" >
+              <img  class="img-responsive" src= "/images/slide-1.jpg"  alt="Website" >
+
+            </div>
+            <div class="col-md-6" style="height:300px">
+              <div class="informacion-servicio">
+                <h3>Plan de Diseño e Implantación de Redes</h3>
+                <p>Analizamos, diseñamos e implantamos su arquitectura de red, tomando en cuenta sus necesidades, capacidad de crecimiento estimado, tecnologías disponibles, y la identificación de medios, puntos de terminación y conexión. Para que con este servicio se obtenga el apoyo y asesoría que necesita para la elaboración, seguimiento, administración e implementación de dicho plan.</p>
+              </div>
+              <a class="btn boton-out" style="background:black"> atras</a>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
-  </section>
-<section id="footer">
+  </div>
+</section>
+<section id="footer-section">
   <% include ../partials/footer %>
 </section>
 </body>

@@ -6,6 +6,7 @@ a {
   color: #00B7FF;
 }
 .navbar-default{
+  border: none;
 -webkit-box-shadow:none !important;
 box-shadow: none !important;
 }
@@ -18,8 +19,9 @@ box-shadow: none !important;
 }
 
 nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse{
-    background: rgba(255, 255, 255, 0.93) !important;
+    background: #FCFCFC !important;
     transition: all 1.5s ease-out;
+    height: 61px;
 
 }
 
@@ -27,8 +29,9 @@ nav.top-nav-collapse > li > a {
   color:#333 !important;
 }
 
-.navbar{
-  border: none;
+.logo{
+  margin-top: -19px;
+    width: 80px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -89,6 +92,7 @@ section#nosotros {
 .informacion-1{
     padding-bottom: 4%;
     padding-top: 2%;
+    font-size: 1.8rem;
 }
 
 a.btn.btn-primary.btn-lg{
@@ -109,22 +113,54 @@ section#servicio {
   text-align: center;
 }
 
+
+#servicio .contenido>h3{
+text-align: center;
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+
+#servicio .contenido>p{
+    color: rgba(245, 245, 245, 0.91);
+        text-align: center;
+        padding: 3%;
+      }
+
+#servicio  .btn-contenido{
+opacity: 0.7;
+color: white;
+margin-left: 31%;
+transition: 1s;
+-webkit-transition: 1s;
+}
+
+#servicio  .btn-contenido:hover{
+  transition: 1s;
+  -webkit-transition: 1s;
+  opacity: 1;
+  font-size: 1.5rem;
+}
+
 #contacto .jumbotron{
   background-color: #4495B8;
       margin-bottom: 0px;
 }
+
 section#footer{
 background: rgba(119, 119, 119, 0.77);
 }
 
-#contacto .jumbotron {
+#contacto-vermas .jumbotron {
+    background: #4495B8;
     height: 350px;
     background-color: rgba(0,0,0,.075);
     margin-bottom: 0px;
 }
 
-#contacto .jumbotron > h1{
+#contacto-vermas .jumbotron > h1{
   padding-bottom: 102px;
+  text-align: center;
 }
 
 #top .container{
@@ -169,3 +205,160 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
     text-decoration: none;
     background-color: rgb(68, 149, 184);
 }
+
+
+
+#servicio .contenedor{
+  overflow: hidden;
+  height: 255px;
+}
+
+#servicio .imagen{
+  transition: all .5s ease-in-out;
+}
+
+#servicio .imagen img{
+  width: 100%;
+  height: auto;
+}
+#servicio .contenido{
+  border-radius: 4px;
+      margin-top: 20px;
+      transition: all .5s ease-in-out;
+      background-color: #2e6da4;
+      height: 255px;
+      padding: 5px;
+}
+
+#servicio .contenedor:hover .imagen{
+  transform: translateY(-255px);
+}
+
+#servicio .contenedor:hover .contenido{
+  transform: translateY(-255px);
+}
+
+section#contenido-servicio {
+    padding: 67px;
+}
+
+a.boton.page-scroll {
+    color: #333;
+}
+
+a:hover.boton.page-scroll {
+    color: orange;
+    text-decoration: none;
+}
+
+
+div#contenido{
+
+  padding-top: 67px;
+  padding-bottom: 90px;
+}
+
+div#contenido>h3{
+  color: orange;
+}
+
+.informacion-servicio{
+  text-align: justify;
+}
+
+.informacion-servicio > h3{
+  text-align: center;
+  color: orange;
+  font-weight: 600;
+}
+#contacto-page .top{
+  background: url(../images/contacto.jpg) no-repeat;
+  height: 350px;
+  width: auto;
+  background-size: cover;
+}
+
+section#contact {
+  background: rgba(245, 245, 245, 0.22);
+    padding: 67px;
+}
+
+#contact > div > div > div.col-md-6 > h3
+{
+font-size: 3.2rem;
+    color: #4495B8;
+    font-weight: bolder;
+    padding-bottom: 2%
+}
+
+#contact > div > div > div.col-md-5.col-md-offset-1 > h3{
+  font-size: 2.8rem;
+      color: #4495B8;
+      font-weight: bolder;
+      padding-bottom: 2%
+}
+#contacto-page .container > h1 {
+  color: white;
+    font-size: 8rem;
+    text-align: center;
+    padding-top: 120px;
+}
+
+
+#servicio-page .top{
+  background: url(../images/servicio-top.jpeg) no-repeat;
+  height: 350px;
+  width: auto;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center bottom;
+
+}
+
+#servicio-page .container > h1 {
+  color: white;
+    font-size: 8rem;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.centro{
+  color: #333;
+    padding: 3%;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Courgette', cursive;
+}
+
+#footer-section .footer {
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: whitesmoke;
+  text-align: center;
+  position: relative;
+  padding: 2%;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+.fa-instagram {
+     color: #cd486b;
+}
+
+.fa {
+    opacity: 0.7;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+  }
